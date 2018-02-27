@@ -83,6 +83,9 @@ case $1 in
    "sonoff_dual")
       FOTA=1
    ;;
+   "luxo")
+      FOTA=1
+   ;;
    "sonoff_th16")
       FOTA=1
    ;;
@@ -173,7 +176,7 @@ case $1 in
    echo "              sonoff_socket";
    echo "              sonoff_th10";
    echo "              sonoff_th16";
-   echo "              sonoff_dual";
+   echo "              luxo";
    echo "              EgyIOT";
    echo "              dimmer";
    echo "              rgbw_wroom";

@@ -134,6 +134,10 @@
 
 #include "board/lightswitch.h"
 
+#elif defined(__BOARD_luxo)
+
+#include "board/luxo.h"
+
 #endif
 
 #endif
